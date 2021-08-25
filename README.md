@@ -1,4 +1,7 @@
 ## VergilMercenary
+Created by Rob, maintained by KomradeSpectre (currently)
+
+
 Now I'm MOTIVATED!
 
 - Adds a custom Vergil skin for Mercenary
