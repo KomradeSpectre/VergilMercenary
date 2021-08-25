@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Components\**" />
     <Compile Remove="EntityStates\**" />
+    <EmbeddedResource Remove="Components\**" />
     <EmbeddedResource Remove="EntityStates\**" />
+    <None Remove="Components\**" />
     <None Remove="EntityStates\**" />
   </ItemGroup>
 
