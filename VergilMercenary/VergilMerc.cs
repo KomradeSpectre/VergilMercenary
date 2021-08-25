@@ -19,13 +19,13 @@ namespace VergilMercenary
 {
     [BepInDependency("com.bepis.r2api")]
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod)]
-    [BepInPlugin(MODUID, "VergilMercenary", "1.2.2")]
+    [BepInPlugin(ModUUID, ModName, ModVer)]
     [R2APISubmoduleDependency(new string[] { "PrefabAPI", "SurvivorAPI", "LoadoutAPI", "LanguageAPI", "ResourcesAPI" })]
     public class VergilMerc : BaseUnityPlugin
     {
-        public const string MODUID = "com.KomradeSpectre.VergilMercenary";
+        public const string ModUUID = "com.KomradeSpectre.VergilMercenary";
 		public const string ModName = "VergilMercenary";
-		public const string ModVer = "1.2.2";
+		public const string ModVer = "1.0.0";
 
         public AssetBundle MainAssets;
 
