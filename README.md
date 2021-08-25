@@ -19,5 +19,6 @@ These features are currently not updated in this release, but will return soon.
 
 
 ## Changelog
-`1.2.2`
+`1.0.0`
 - Updated to work post-anniversary update. Maintenance of mod now taken over by KomradeSpectre.
+- Refactored code to be cleaner. 
